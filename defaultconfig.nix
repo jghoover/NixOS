@@ -4,8 +4,9 @@
   # packages
   environment.systemPackages = with pkgs; [
     
-    # editors
+    # editors/ides
     emacs
+    # jetbrains
     
     # version control
     git
@@ -30,17 +31,34 @@
     gcc
     gcl
     gdb
-    gfortran # is this included in gcc?
+    gfortran
+    ghc
     glibc
     gnuapl
     gnu-smalltalk
     gnumake
     gradle
     gsl
+    hugs
+    j
+    jdk
+    julia
+    lci
+    lua
     maven
+    ocaml
+    opam
+    perl
+    pydb
+    python
+    python3
+    R
+    sbcl
     
     # LaTeX
     bibtool
+    # tetex?
+    # texstudio?
     
     # games etc
     chocolateDoom
@@ -80,7 +98,17 @@
     fsql
     gimp
     gzip
-    
+    hlint
+    libbluray
+    #libreoffice
+    lolcat
+    most
+    numlockx
+    rsync
+    sawfish
+    sl
+    virtualbox
+    vlc
     
     # networking
     wireshark
@@ -89,10 +117,9 @@
     findutils
     iputils
     letsencrypt
-    jq # what is this?
     nettools
     netcat
-    nfs-utils # what is this?
-    rsync # what is this?
+    nmap
+    ncat
   ];
 }
