@@ -57,6 +57,7 @@
     
     # LaTeX
     bibtool
+    tectonic
     # tetex?
     # texstudio?
     
