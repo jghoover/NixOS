@@ -48,6 +48,7 @@
     maven
     ocaml
     opam
+    openmpi
     perl
     pydb
     python
