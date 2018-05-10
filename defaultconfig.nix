@@ -109,6 +109,7 @@
     rsync
     sawfish
     sl
+    vagrant
     virtualbox
     vlc
     
